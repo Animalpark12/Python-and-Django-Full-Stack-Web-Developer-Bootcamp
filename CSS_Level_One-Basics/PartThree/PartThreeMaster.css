@@ -1,0 +1,32 @@
+/* for classes, there must be a "." before it */
+.firstDiv{
+    color: blue;
+}
+
+.secondDiv{
+    color: red;
+}
+
+#singledOut{
+    color: green;
+    text-decoration: line-through;
+}
+
+h3 + ul{
+    border: 4px dotted purple;
+}
+
+li a{
+    color: red;
+}
+
+li a[href="www.youtube.com"]{
+    color: brown;
+    border: 2px solid orange;
+}
+
+/* Take everything in the page and overide it, but do not overide id's */
+/* *{
+ color: black;
+}
+*/
