@@ -1,0 +1,23 @@
+/* Normal format */
+/* selected tag
+{
+    property: value;
+} */
+
+h1
+{
+    color: blue;
+}
+
+li
+{
+    color: rgb(255, 230, 0);
+}
+
+p{
+    color: rgb(202, 38, 166);
+}
+
+h4{
+    color: rgba(0, 255, 255, 0);
+}
