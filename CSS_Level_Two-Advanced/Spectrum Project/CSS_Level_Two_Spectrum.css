@@ -1,0 +1,34 @@
+h1{
+    font-family: 'VT323', monospace;
+    text-align: center;
+}
+
+.class{
+    margin: auto;
+}
+
+td{
+    height: 300px;
+    width: 150px;
+    border: 6px solid white;
+}
+
+#one{
+    background-color: #0081A7;
+}
+
+#two{
+    background-color: #0A1128;
+}
+
+#three{
+    background-color: #001F54;
+}
+
+#four{
+    background-color: #F7FFF7;
+}
+
+#five{
+    background-color: #9B1D20;
+}
