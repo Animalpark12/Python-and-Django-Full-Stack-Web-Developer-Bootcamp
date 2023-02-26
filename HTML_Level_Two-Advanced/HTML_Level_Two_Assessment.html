@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Assessment HTML Advanced</title>
+    </head>
+    <body>
+        <h1>Course Sing Up page</h1>
+        <p>First name, last name, password and email are <strong>required!!!</strong></p>
+        
+        <form action="thankYou.html" method="get">
+            <label for="firstName">First name:</label>
+            <input type="text" name="" id="firstName" placeholder="First name" required>
+
+            <label for="lastName">Last name: </label>
+            <input type="text" name="" id="lastName" placeholder="Last name" required>
+
+            <p></p>
+            <label for="userEmail">Email:</label>
+            <input type="email" name="" id="userEmail" placeholder="Email" required>
+
+            <label for="userPassword">Password:</label>
+            <input type="password" name="" id="userPassword" placeholder="Password" required>
+
+            <p>Are you over 18?</p>
+            <label for="old">Yes:</label>
+            <input type="radio" name="age" id="old" value="+18">
+            <label for="new">No:</label>
+            <input type="radio" name="age" id="new" value="-18">
+
+            <p>Do you have a Credit Card or PayPal?</p>
+            <select name="payment">
+                <option value="creditCard">Credit Card</option>
+                <option value="payPal">PayPal</option>
+            </select>
+
+            <p></p>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </body>
+</html>
